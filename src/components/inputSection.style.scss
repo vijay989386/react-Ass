@@ -1,0 +1,51 @@
+.InputSection__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    input, textarea {
+        min-width: 400px;
+        border: 1px solid gray;
+        border-radius: 0.3em;
+        padding: 0.5em;
+        margin: 0.5em;
+        font-size: 10pt;
+        //   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+        box-shadow: rgba(48, 75, 157, 40%) 5px 5px, #9612e7 10px 10px, rgba(253, 254, 254, 0.2) 15px 15px, rgba(251, 174, 65, 0.1) 20px 20px, rgba(0, 97, 151, 0.05) 25px 25px;
+    }
+
+
+    .InputSection__container__btnWrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.5em;
+
+        button {
+            background-color: black;
+            border: none;
+            color: white;
+            font-size: 10pt;
+            border-radius: 0.3em;
+            padding: 0.5em;
+        }
+    }
+}
+h1{
+    //    background-color: #cacbcf;
+    color: #58b3a3;
+}
+h2 {
+    color: #e44a0f;
+}
+p{
+    color: #fff;
+}
+
+
+
+
+
+body {
+    background-image: url("file:///D:/ng/blog/src/Nagarrologo.webp");
+    background-attachment: fixed;
+}
